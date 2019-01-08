@@ -137,5 +137,5 @@ get_filename_component(
     CMAKE_CURRENT_LIST_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
 # Note: the current list dir is _INSTALL_PREFIX/share/cmake/Gloo.
 get_filename_component(
-    _INSTALL_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../../../" ABSOLUTE)
+    _INSTALL_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../../../lib/" ABSOLUTE)
 set(CAFFE2_INCLUDE_DIRS "${_INSTALL_PREFIX}/include")
