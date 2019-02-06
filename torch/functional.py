@@ -4,6 +4,8 @@ from torch._six import inf
 from torch._C import _add_docstr
 from operator import mul
 from functools import reduce
+from collections import Iterable
+from torch._utils import annotate
 from itertools import product
 import math
 import warnings
